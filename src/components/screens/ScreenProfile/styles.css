@@ -1,0 +1,72 @@
+
+.profileImage{
+    border-radius:50%;
+    width:80%;
+    height:65%;
+}
+
+.fullname{
+    font-weight: 490;
+}
+.username{
+    font-weight: 200;
+}
+
+hr{
+    color:gray;
+    opacity: 0.2;
+}
+
+.spacing{
+    margin-bottom:5px;
+    margin-left:5px;
+    margin-right:15px;
+}
+
+
+.spacingTop{
+    margin-top:20px;
+}
+.spacingLeft{
+    margin-left:10px;
+}
+.fontdesc{
+    font-weight: 200;
+}
+.spacingRight{
+    margin-right: 15px;
+}
+
+.repository{
+    text-decoration:none;
+    list-style: none;
+}
+
+.box {
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.foreground{
+    z-index: 0;
+}
+
+.background{
+    z-index: 1;
+}
+
+.paddingRep { 
+    padding: 2em;
+    border-radius:0px;
+}
+
+.orangeBottom{
+    border-bottom: 3px solid orange;
+}
+
+.line{
+    position:absolute;
+    width:100vw;
+    top:3%;
+}
