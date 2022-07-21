@@ -25,7 +25,7 @@ export default function ScreenProfile(props){
         >
             <Grid xs={1} />
             <Grid className="spacing spacingTop" item xs={3}>
-                <img className="profileImage foreground" src={props.profile.avatar_url}></img>
+                <img className="profileImage" src={props.profile.avatar_url}></img>
                 <h1 className="fullname">{props.profile.login}</h1>
                 <p className="username">{props.profile.login}</p>
                 <FollowerButton>Follow</FollowerButton>
